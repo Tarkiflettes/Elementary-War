@@ -1,0 +1,294 @@
+fileFormatVersion: 2
+guid: e6dda0a4901abf64c9ace634ba60e1a6
+timeCreated: 1454200515
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: animation_complete_mort_0
+    21300002: animation_complete_mort_1
+    21300004: animation_complete_mort_2
+    21300006: animation_complete_mort_3
+    21300008: animation_complete_mort_4
+    21300010: animation_complete_mort_5
+    21300012: animation_complete_mort_6
+    21300014: animation_complete_mort_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: animation_complete_mort_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: -10}
+        - {x: 43, y: -10}
+        - {x: 31, y: -42}
+        - {x: 31, y: -172}
+        - {x: 45, y: -200}
+        - {x: 108, y: -200}
+        - {x: 119, y: -151}
+        - {x: 119, y: -79}
+        - {x: 112, y: -14}
+    - name: animation_complete_mort_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 210
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -31}
+        - {x: 31, y: -65}
+        - {x: 31, y: -174}
+        - {x: 45, y: -200}
+        - {x: 111, y: -200}
+        - {x: 119, y: -184}
+        - {x: 119, y: -71}
+        - {x: 102, y: -31}
+      - - {x: 145, y: -162}
+        - {x: 145, y: -165}
+        - {x: 147, y: -167}
+        - {x: 150, y: -167}
+        - {x: 150, y: -160}
+        - {x: 147, y: -160}
+    - name: animation_complete_mort_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 210
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: -61}
+        - {x: 43, y: -61}
+        - {x: 31, y: -82}
+        - {x: 31, y: -180}
+        - {x: 33, y: -195}
+        - {x: 46, y: -200}
+        - {x: 113, y: -200}
+        - {x: 119, y: -189}
+        - {x: 119, y: -116}
+        - {x: 109, y: -88}
+      - - {x: 145, y: -162}
+        - {x: 145, y: -165}
+        - {x: 147, y: -167}
+        - {x: 150, y: -167}
+        - {x: 150, y: -160}
+        - {x: 147, y: -160}
+    - name: animation_complete_mort_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 210
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -121}
+        - {x: 1, y: -146}
+        - {x: 1, y: -192}
+        - {x: 32, y: -200}
+        - {x: 125, y: -200}
+        - {x: 143, y: -184}
+        - {x: 143, y: -136}
+        - {x: 137, y: -121}
+      - - {x: 145, y: -162}
+        - {x: 145, y: -165}
+        - {x: 147, y: -167}
+        - {x: 150, y: -167}
+        - {x: 150, y: -160}
+        - {x: 147, y: -160}
+    - name: animation_complete_mort_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: -145}
+        - {x: 29, y: -145}
+        - {x: 1, y: -164}
+        - {x: 1, y: -199}
+        - {x: 3, y: -200}
+        - {x: 30, y: -203}
+        - {x: 112, y: -203}
+        - {x: 143, y: -202}
+        - {x: 143, y: -169}
+        - {x: 127, y: -163}
+      - - {x: 145, y: -162}
+        - {x: 145, y: -165}
+        - {x: 147, y: -167}
+        - {x: 150, y: -167}
+        - {x: 150, y: -160}
+        - {x: 147, y: -160}
+      - - {x: 103, y: -70}
+        - {x: 90, y: -64}
+        - {x: 32, y: -64}
+        - {x: 31, y: -68}
+        - {x: 31, y: -89}
+        - {x: 54, y: -110}
+        - {x: 78, y: -110}
+        - {x: 113, y: -98}
+        - {x: 116, y: -89}
+        - {x: 116, y: -78}
+        - {x: 108, y: -73}
+    - name: animation_complete_mort_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -145}
+        - {x: 0, y: -180}
+        - {x: 0, y: -203}
+        - {x: 142, y: -203}
+        - {x: 142, y: -145}
+      - - {x: 146, y: -160}
+        - {x: 144, y: -162}
+        - {x: 144, y: -165}
+        - {x: 146, y: -167}
+        - {x: 149, y: -167}
+        - {x: 150, y: -166}
+        - {x: 150, y: -161}
+        - {x: 149, y: -160}
+      - - {x: 65, y: -43}
+        - {x: 57, y: -45}
+        - {x: 54, y: -52}
+        - {x: 54, y: -72}
+        - {x: 75, y: -89}
+        - {x: 112, y: -89}
+        - {x: 139, y: -70}
+        - {x: 139, y: -48}
+        - {x: 130, y: -43}
+    - name: animation_complete_mort_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: -145}
+        - {x: 29, y: -145}
+        - {x: 1, y: -164}
+        - {x: 1, y: -199}
+        - {x: 3, y: -200}
+        - {x: 30, y: -203}
+        - {x: 112, y: -203}
+        - {x: 143, y: -202}
+        - {x: 143, y: -169}
+        - {x: 127, y: -163}
+      - - {x: 145, y: -162}
+        - {x: 145, y: -165}
+        - {x: 147, y: -167}
+        - {x: 150, y: -167}
+        - {x: 150, y: -160}
+        - {x: 147, y: -160}
+      - - {x: 67, y: -22}
+        - {x: 67, y: -50}
+        - {x: 89, y: -68}
+        - {x: 113, y: -68}
+        - {x: 148, y: -56}
+        - {x: 150, y: -52}
+        - {x: 150, y: -22}
+    - name: animation_complete_mort_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: -145}
+        - {x: 29, y: -145}
+        - {x: 1, y: -164}
+        - {x: 1, y: -199}
+        - {x: 3, y: -200}
+        - {x: 30, y: -203}
+        - {x: 112, y: -203}
+        - {x: 143, y: -202}
+        - {x: 143, y: -169}
+        - {x: 127, y: -163}
+      - - {x: 145, y: -162}
+        - {x: 145, y: -165}
+        - {x: 147, y: -167}
+        - {x: 150, y: -167}
+        - {x: 150, y: -160}
+        - {x: 147, y: -160}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

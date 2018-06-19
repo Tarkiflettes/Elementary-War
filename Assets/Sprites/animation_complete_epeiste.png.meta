@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: ae12c7cfa10578e47922e420ec1c81fc
+timeCreated: 1454196972
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: animation_complete_epeiste_0
+    21300002: animation_complete_epeiste_1
+    21300004: animation_complete_epeiste_2
+    21300006: animation_complete_epeiste_3
+    21300008: animation_complete_epeiste_4
+    21300010: animation_complete_epeiste_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: animation_complete_epeiste_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -10}
+        - {x: 32, y: -57}
+        - {x: 22, y: -139}
+        - {x: 50, y: -153}
+        - {x: 48, y: -147}
+        - {x: 41, y: -173}
+        - {x: 14, y: -190}
+        - {x: 10, y: -194}
+        - {x: 10, y: -200}
+        - {x: 14, y: -203}
+        - {x: 113, y: -203}
+        - {x: 113, y: -34}
+        - {x: 105, y: -10}
+    - name: animation_complete_epeiste_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 210
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -10}
+        - {x: 32, y: -57}
+        - {x: 22, y: -139}
+        - {x: 10, y: -167}
+        - {x: 10, y: -203}
+        - {x: 113, y: -203}
+        - {x: 113, y: -27}
+        - {x: 106, y: -10}
+    - name: animation_complete_epeiste_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 210
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -10}
+        - {x: 32, y: -57}
+        - {x: 22, y: -139}
+        - {x: 50, y: -153}
+        - {x: 48, y: -150}
+        - {x: 63, y: -189}
+        - {x: 14, y: -189}
+        - {x: 10, y: -195}
+        - {x: 10, y: -200}
+        - {x: 15, y: -203}
+        - {x: 113, y: -203}
+        - {x: 113, y: -26}
+        - {x: 106, y: -10}
+    - name: animation_complete_epeiste_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: -10}
+        - {x: 19, y: -36}
+        - {x: 19, y: -203}
+        - {x: 119, y: -203}
+        - {x: 119, y: -31}
+        - {x: 107, y: -10}
+    - name: animation_complete_epeiste_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: -10}
+        - {x: 19, y: -37}
+        - {x: 19, y: -203}
+        - {x: 102, y: -203}
+        - {x: 116, y: -191}
+        - {x: 116, y: -10}
+    - name: animation_complete_epeiste_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -10}
+        - {x: 32, y: -57}
+        - {x: 22, y: -139}
+        - {x: 47, y: -144}
+        - {x: 19, y: -184}
+        - {x: 19, y: -203}
+        - {x: 116, y: -203}
+        - {x: 116, y: -10}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

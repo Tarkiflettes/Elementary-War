@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: d6b98fc24accb644dbb0016011b5cb87
+timeCreated: 1454208518
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: animation_complete_templier_0
+    21300002: animation_complete_templier_1
+    21300004: animation_complete_templier_2
+    21300006: animation_complete_templier_3
+    21300008: animation_complete_templier_4
+    21300010: animation_complete_templier_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: animation_complete_templier_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -1}
+        - {x: 1, y: -70}
+        - {x: 1, y: -149}
+        - {x: 14, y: -210}
+        - {x: 86, y: -210}
+        - {x: 144, y: -166}
+        - {x: 144, y: -50}
+        - {x: 111, y: -1}
+    - name: animation_complete_templier_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 210
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -1}
+        - {x: 1, y: -70}
+        - {x: 1, y: -149}
+        - {x: 16, y: -210}
+        - {x: 85, y: -210}
+        - {x: 144, y: -164}
+        - {x: 144, y: -50}
+        - {x: 110, y: -1}
+    - name: animation_complete_templier_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 210
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 114, y: -78}
+        - {x: 109, y: -82}
+        - {x: 108, y: -63}
+        - {x: 75, y: -1}
+        - {x: 22, y: -1}
+        - {x: 1, y: -63}
+        - {x: 1, y: -168}
+        - {x: 7, y: -210}
+        - {x: 71, y: -210}
+        - {x: 94, y: -209}
+        - {x: 144, y: -116}
+        - {x: 144, y: -90}
+        - {x: 118, y: -74}
+    - name: animation_complete_templier_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -1}
+        - {x: 1, y: -67}
+        - {x: 1, y: -161}
+        - {x: 8, y: -210}
+        - {x: 95, y: -210}
+        - {x: 144, y: -169}
+        - {x: 144, y: -50}
+        - {x: 111, y: -1}
+    - name: animation_complete_templier_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -1}
+        - {x: 1, y: -62}
+        - {x: 1, y: -164}
+        - {x: 9, y: -210}
+        - {x: 100, y: -210}
+        - {x: 144, y: -171}
+        - {x: 144, y: -50}
+        - {x: 111, y: -1}
+    - name: animation_complete_templier_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -1}
+        - {x: 1, y: -55}
+        - {x: 1, y: -164}
+        - {x: 11, y: -209}
+        - {x: 85, y: -209}
+        - {x: 144, y: -165}
+        - {x: 144, y: -50}
+        - {x: 111, y: -1}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

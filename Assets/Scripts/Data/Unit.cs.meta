@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 09a30ceb646b20e4b909f6378bba0b15
+timeCreated: 1454127343
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - spriteArcher: {instanceID: 0}
+  - spriteEpeiste: {instanceID: 0}
+  - spriteTemplier: {instanceID: 0}
+  - spriteMage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
