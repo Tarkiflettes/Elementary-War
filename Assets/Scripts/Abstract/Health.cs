@@ -2,16 +2,28 @@
 
 namespace Assets.Scripts.Abstract
 {
-    public abstract class Health : MonoBehaviour
+    public class Health : MonoBehaviour
     {
 
         public float StartingHealth = 100f;
-        public float CurrentHealth { get; private set; }
+        public float CurrentHealth
+        {
+            get { return _currentHealth; }
+            set
+            {
+                _currentHealth = value;
+                OnHealthChange();
+            }
+        }
 
+        public delegate void TakeDamageChangeHandler(ref float amount);
+        public event TakeDamageChangeHandler OnTakeDamage;
         public delegate void HealthChangeHandler();
         public event HealthChangeHandler HealthChange;
         public delegate void DeathHandler();
         public event DeathHandler Death;
+
+        private float _currentHealth;
 
         private void Start()
         {
@@ -27,7 +39,6 @@ namespace Assets.Scripts.Abstract
             CurrentHealth += amount;
             if (CurrentHealth > StartingHealth)
                 CurrentHealth = StartingHealth;
-            OnHealthChange();
         }
 
         /// <summary>
@@ -38,23 +49,23 @@ namespace Assets.Scripts.Abstract
         {
             if (CurrentHealth <= 0)
                 return;
-            Debug.Log(gameObject.name + " TakeDamage (" + amount + ")");
-            if (amount < 0) amount = 0;
-            CurrentHealth -= amount;
-            if (CurrentHealth <= 0)
-            {
-                Debug.Log(gameObject.name + " has died");
-                if (Death != null)
-                    Death();
-                Die();
-            }
-            OnHealthChange();
-        }
 
-        /// <summary>
-        /// Health is less or equal to 0
-        /// </summary>
-        protected abstract void Die();
+            if (OnTakeDamage != null)
+                OnTakeDamage(ref amount);
+
+            Debug.Log(gameObject.name + " TakeDamage (" + amount + ")");
+
+            if (amount < 0)
+                amount = 0;
+            CurrentHealth -= amount;
+
+            if (CurrentHealth > 0)
+                return;
+
+            Debug.Log(gameObject.name + " has died");
+            if (Death != null)
+                Death();
+        }
 
         protected void OnHealthChange()
         {
