@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public enum Element { None, Fire, Water, Wind, Ground }
+
 public class UnitStats : MonoBehaviour {
 
     public bool sendByPlayer;
@@ -10,13 +13,14 @@ public class UnitStats : MonoBehaviour {
     public int life;
     public int attack;
     public int attackDistance;
+    public Element currentElement;
 
     private Animator animController;
 
 	// Use this for initialization
 	void Start () {
         animController = this.gameObject.GetComponent<Animator>();
-
+        currentElement = Element.Fire;
     }
 	
 	// Update is called once per frame
@@ -41,4 +45,5 @@ public class UnitStats : MonoBehaviour {
     {
         Destroy(this.gameObject);
     }
+
 }
